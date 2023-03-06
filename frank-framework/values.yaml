@@ -107,10 +107,10 @@ frank:
     key:
   instance:
     # (required) the name of the Frank
-    name:
+    name: ffsdfs
   dtap:  
     # (required) Options: LOC, DEV, TST, ACC, PRD
-    stage:
+    stage: LOC
     side:
   configurations:
     # Configurations to load.
@@ -123,9 +123,9 @@ connections:
       # Default name is "jdbc/{{ .Values.frank.instance.name }}"
     - name:
       # (required) Possible types: oracle, mssql, mysql, mariadb, postgresql, db2 and mongodb
-      type:
+      type: mariadb
       # (required) Example: <service>.<namespace>.svc.cluster.local
-      host:
+      host: localhost
       ssl: 
       port:
       # Default database is .frank.instance.name

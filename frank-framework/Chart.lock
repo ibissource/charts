@@ -1,0 +1,6 @@
+dependencies:
+- name: frank
+  repository: file://../frank
+  version: 0.1.1
+digest: sha256:076bf7e650dd6408df5e597738ce8144195095f47e85d0823eb390cdf4f81b98
+generated: "2023-01-30T21:24:10.129510184+01:00"
